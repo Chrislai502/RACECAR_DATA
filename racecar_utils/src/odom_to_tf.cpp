@@ -3,7 +3,7 @@
 #include <functional>
 #include <exception>
 #include <iostream>
-#include <tf2_eigen/tf2_eigen.hpp>
+#include <tf2_eigen/tf2_eigen.h>
 
 OdomToTFNode::OdomToTFNode() : rclcpp::Node("odom_to_tf_node")
 {
